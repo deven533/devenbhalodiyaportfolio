@@ -48,8 +48,8 @@ As a UI/UX designer who knows code, here are the tools I use daily:
   <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
 </div>
-
-const recipient = "example@gmail.com";
+<div align="center">
+  const recipient = "devenp706@gmail.com";
 const subject = "Project Inquiry";
 const body = "Hello,\n\nI would like to discuss...";
 
@@ -57,3 +57,5 @@ const body = "Hello,\n\nI would like to discuss...";
 const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 window.open(gmailUrl, '_blank');
+
+</div>
