@@ -2,15 +2,14 @@
 
   # Hi there, I'm Deven! 👋
   
-  ### 🎨 UI/UX Designer | 💻 Frontend Enthusiast
-  
+  ### 🎨 UI/UX Designer  
   *Turning complex problems into simple, beautiful designs.*
   
   ---
   
   ## 🚀 View My Work
   
-  <a href="https://YOUR_PORTFOLIO_LINK.com">
+  <a href="https://deven533.github.io/devenbhalodiyaportfolio/">
     <img src="https://img.shields.io/badge/My_Portfolio-FF5722?style=for-the-badge&logo=dribbble&logoColor=white" height="40" />
   </a>
   <a href="https://www.behance.net/YOUR_USERNAME">
