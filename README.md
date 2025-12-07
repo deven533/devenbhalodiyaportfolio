@@ -49,82 +49,11 @@ As a UI/UX designer who knows code, here are the tools I use daily:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true" height="150" alt="languages graph" />
 </div>
 
+const recipient = "example@gmail.com";
+const subject = "Project Inquiry";
+const body = "Hello,\n\nI would like to discuss...";
 
-/* Gmail*/
+// The Magic Link
+const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gmail Direct Link</title>
-    <style>
-        /* CSS: Styling the Button */
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f2f5;
-        }
-
-        .gmail-button {
-            background-color: #EA4335; /* Gmail Red */
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            transition: background-color 0.3s ease, transform 0.1s ease;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            text-decoration: none; /* In case you use an <a> tag */
-        }
-
-        .gmail-button:hover {
-            background-color: #d93025;
-        }
-
-        .gmail-button:active {
-            transform: scale(0.98);
-        }
-
-        /* Optional: Icon style */
-        .icon {
-            font-size: 1.2em;
-        }
-    </style>
-</head>
-<body>
-
-    <button id="sendEmailBtn" class="gmail-button">
-        <span class="icon">&#9993;</span> Send Direct Email
-    </button>
-
-    <script>
-        // JS: Building the Logic
-        document.getElementById('sendEmailBtn').addEventListener('click', function() {
-            
-            // 1. Define your email details here
-            const recipient = "example@gmail.com";
-            const subject = "Project Inquiry";
-            const body = "Hello,\n\nI would like to discuss a new project with you.\n\nBest regards.";
-
-            // 2. Create the Gmail specific URL
-            // view=cm -> Compose Mode
-            // fs=1 -> Full Screen
-            // to, su, body -> Parameters
-            const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-            // 3. Open in a new tab
-            window.open(gmailUrl, '_blank');
-        });
-    </script>
-
-</body>
-</html>
+window.open(gmailUrl, '_blank');
