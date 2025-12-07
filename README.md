@@ -24,7 +24,7 @@
   <a href="https://instagram.com/YOUR_USERNAME">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="mailto:[devenp706]@gmail.com?subject=Hello%20[YourName]!&body=Hi%2C%20I%20saw%20your%20GitHub%20profile...">
+  <a href="mailto:devenp706@gmail.com?subject=Hello%20[YourName]!&body=Hi%2C%20I%20saw%20your%20GitHub%20profile...">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   | **Email** | <a href="mailto:[devenp706@gmail.com]?subject=Hello%20[Deven Bhalodiya]!&body=Hi%2C%20I%20saw%20your%20GitHub%20profile...">**Click to Send Email** ✉️</a><br>*(Opens your Gmail/Mail app directly)* |
